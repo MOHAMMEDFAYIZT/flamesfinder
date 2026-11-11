@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { Volume2, VolumeX } from "lucide-react";
 import AppHeader from "@/components/AppHeader";
 import AppFooter from "@/components/AppFooter";
+import SeoContent from "@/components/SeoContent";
 
 type GameState = "input" | "animating" | "result";
 
@@ -469,6 +470,8 @@ const Index = () => {
           )}
         </div>
       </div>
+
+      <SeoContent />
 
       {/* =========================== */}
       {/* OUR SONGS SECTION - 4 TRACKS with Spotify-style slider */}
